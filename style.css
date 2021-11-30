@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#main{
+    font-size: 25px;
+}
+
+nav ul{
+    width:1496px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;   
+}
+
+
+.links{
+    width: 30%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 100px 0 500px;
+    text-decoration: none;
+    color: white;
+}
+
+.imgcontainer{
+    width:800px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+img{
+    width:800px;
+    height:400px;
+}
+
+h1, h3, p{
+    text-align: center;
+}
+
+
+.icon{
+    width:32px;
+    height: 32px;
+}
+
+footer{
+    display: flex;
+    width:180px;
+    margin: 50px 525px 0 675px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav2{
+    margin-bottom: 100px;
+}
+
+.container{
+    height:200px;
+    width: 700px;
+    margin: 30px auto;
+    background-color: rgb(237, 240, 243);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.coderun{
+    width:110px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    width:95px;
+    margin: 10px auto;
+}
+
+button{
+    width:90px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
